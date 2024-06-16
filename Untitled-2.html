@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Nationale de Habbo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>République Française - Police Nationale</h1>
+    </header>
+    <nav class="navbar">
+        <a href="#reglementation">Réglementation</a>
+        <a href="#recrutement">Tutoriel de Recrutement</a>
+        <a href="#histoire">Histoire</a>
+        <a href="#formulaire">Recrutement</a>
+    </nav>
+    <div class="carousel">
+        <img src="https://zupimages.net/up/20/04/8upw.png" alt="Image 1">
+        <img src="https://i.servimg.com/u/f74/15/30/94/87/captur55.png" alt="Image 2">
+        <img src="https://2img.net/r/hpimg4/pics/226129Capture.png" alt="Image 3">
+    </div>
+    <section id="reglementation" class="section">
+        <div class="section-title">
+            <img src="https://i.servimg.com/u/f58/18/09/34/80/calque12.png" alt="Réglementation">
+            <h2>Réglementation</h2>
+        </div>
+        <div class="section-content">
+            <p>Il est impératif de respecter l'attitude de Habbo ainsi que celle de la République Française.</p>
+            <ul>
+                <li>Je suis fidèle à la République après avoir prêté serment. Tout manquement au serment entraînera des conséquences.</li>
+                <li>Je respecte mes supérieurs hiérarchiques et obéis à leurs ordres.</li>
+                <li>Je respecte les règles de Habbo et de la R.F., à l'intérieur comme à l'extérieur. Je suis l'image de la République.</li>
+                <li>Je n'interviens pas chez les citoyens sans motif préalable.</li>
+                <li>Je participe au développement de la République en offrant mes idées et conseils pour son évolution.</li>
+                <li>La politesse est ma priorité. Je salue mes collègues et ma communication se doit d'être exemplaire.</li>
+                <li>Je participe activement à la vie de la République sur le forum, Habbo, et autres supports secondaires.</li>
+                <li>J'aide et informe les nouveaux, mes conseils sont indispensables pour les débutants.</li>
+                <li>Je suis honnête avec mon entourage, ce qui est bénéfique pour moi-même et pour tous.</li>
+                <li>Je réfléchis avant d'agir, car tout acte peut être définitif sans retour en arrière possible.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="recrutement" class="section">
+        <div class="section-title">
+            <img src="https://zupimages.net/up/23/18/15q8.png" alt="Tutoriel de Recrutement">
+            <h2>Tutoriel de Recrutement</h2>
+        </div>
+        <div class="section-content">
+            <p>Étape par étape pour rejoindre la Police Nationale :</p>
+            <ol>
+                <li>Adhérez au badge en cliquant sur le carré blanc et mettez l'humeur du jour [R.F] Policier/ère.</li>
+                <li>Cliquez sur les mannequins à l'entrée du QG selon le sexe du personnage (homme/femme) et le HC ou non-HC pour porter la tenue adéquate.</li>
+                <li>Effectuez un passage au sas pour une vérification supplémentaire.</li>
+            </ol>
+        </div>
+    </section>
+    <section id="histoire" class="section">
+        <div class="section-title">
+            <img src="https://i.servimg.com/u/f97/18/09/34/80/calque35.png" alt="Histoire">
+            <h2>Histoire de la Police Nationale</h2>
+        </div>
+        <div class="section-content">
+            <p>Née des cendres du centre militaire, la police nationale est la deuxième filière principale de la RF.</p>
+            <p>Elle rencontra sa première activité seulement après plusieurs mois. La police nationale dispose d’une aisance fonctionnelle pour la pratique du RP.</p>
+            <p>Le premier QG a été créé en 2011 et a fermé en 2012.</p>
+            <img src="https://i.servimg.com/u/f74/15/30/94/87/captur19.jpg" alt="Premier QG">
+            <p>La première version de la police nationale a demandé une mobilisation importante pour sa construction. Bien que calme durant les premiers mois, elle dépasse le centre militaire en activité durant l'année 2012.</p>
+            <p>La deuxième version a pris du service entre 2012 et 2014.</p>
+            <img src="https://i.servimg.com/u/f74/15/30/94/87/captur55.png" alt="Deuxième QG">
+            <p>En 2013, le QG s’est équipé du système wired à téléportation directe, éliminant le problème des portes exécutives. Le QG s'équipe d'une place supplémentaire et bénéficie d'une amélioration visuelle.</p>
+            <p>La troisième version a eu 3 différents QG et un QG spacieux, avec une activité entre 2014 et 2019.</p>
+            <img src="https://2img.net/r/hpimg4/pics/226129Capture.png" alt="Troisième QG">
+            <p>La quatrième version est sortie en 2020 et c'est la version actuelle.</p>
+            <img src="https://zupimages.net/up/20/04/8upw.png" alt="Quatrième QG">
+        </div>
+    </section>
+    <section id="formulaire" class="section">
+        <div class="section-title">
+            <img src="https://2img.net/h/image.ibb.co/gxsgiS/Calque_1.png" alt="Recrutement">
+            <h2>Formulaire de Recrutement</h2>
+        </div>
+        <div class="section-content">
+            <form id="recruitmentForm">
+                <div class="form-page active">
+                    <p>Toutes les cases doivent être remplies obligatoirement et avec sérieux.</p>
+                    <button type="button" onclick="nextPage()">Suivant</button>
+                </div>
+                <div class="form-page">
+                    <label for="pseudo">Pseudo Habbo:</label>
+                    <input type="text" id="pseudo" name="pseudo" required>
+                    <label for="profile">Lien du profil Habbo:</label>
+                    <input type="url" id="profile" name="profile" required>
+                    <label for="grade">Grade:</label>
+                    <input type="text" id="grade" name="grade" required>
+                    <button type="button" onclick="prevPage()">Précédent</button>
+                    <button type="button" onclick="nextPage()">Suivant</button>
+                </div>
+                <div class="form-page">
+                    <label for="motivation">Pourquoi vouloir postuler à la police nationale?</label>
+                    <textarea id="motivation" name="motivation" rows="4" required></textarea>
+                    <label for="objectives">Quels sont vos objectifs?</label>
+                    <textarea id="objectives" name="objectives" rows="4" required></textarea>
+                    <label for="whyYou">Pourquoi vous et pas un autre?</label>
+                    <textarea id="whyYou" name="whyYou" rows="4" required></textarea>
+                    <button type="button" onclick="prevPage()">Précédent</button>
+                    <button type="button" onclick="nextPage()">Suivant</button>
+                </div>
+                <div class="form-page">
+                    <p>Insérez une capture d'écran de votre serment d'être fidèle à la RF.</p>
+                    <label for="screenshot">Hébergeur pour l'image:</label>
+                    <input type="file" id="screenshot" name="screenshot" required>
+                    <button type="button" onclick="prevPage()">Précédent</button>
+                    <button type="button" onclick="nextPage()">Suivant</button>
+                </div>
+                <div class="form-page">
+                    <p>Êtes-vous sûr d'avoir bien lu votre CV et de vouloir l'envoyer?</p>
+                    <label for="yes">Oui</label>
+                    <input type="radio" id="yes" name="confirmation" value="yes" required>
+                    <label for="no">Non</label>
+                    <input type="radio" id="no" name="confirmation" value="no" required>
+                    <button type="button" onclick="prevPage()">Précédent</button>
+                    <button type="submit">Valider le formulaire</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        &copy; 2024 Police Nationale de Habbo. Tous droits réservés.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
